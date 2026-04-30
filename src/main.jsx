@@ -7,11 +7,11 @@ import {MyHeader} from './components/MyHeader/MyHeader.jsx';
 import {MyForm} from './components/MyForm/MyForm.jsx';
 import {MyFooter} from './components/MyFooter/MyFooter.jsx';
 
-import './App.css';
+import './main.css';
 
-const my_title = 'My React Web App';
+const my_title = 'My React Web Main';
 
-export const App = () => (
+export const Main = () => (
     <>
         <MyHeader {...{ my_title, my_logo, my_reset_icon }} />
         <MyForm></MyForm>
@@ -19,4 +19,4 @@ export const App = () => (
     </>
 );
 
-createRoot(document.getElementById('root')).render(<StrictMode><App/></StrictMode>);
+createRoot(document.getElementById('root')).render(<StrictMode><Main/></StrictMode>);
