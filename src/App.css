@@ -1,3 +1,5 @@
+/*div { outline: .1rem solid red; }*/
+
 :root {
   --my_primary_color: #B8860B;
   --my_secondary_color: #E0E0E0;
@@ -14,8 +16,6 @@
   --my_footer_font: .75rem;
   --my_background: url('src/assets/background.svg')
 }
-
-/*div { outline: .1rem solid red; }*/
 
 html {height: 100%;}
 
