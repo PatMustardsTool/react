@@ -1,6 +1,6 @@
 .footer {
-    font-size: .75rem;
+    font-size: var(--my_footer_font);
     font-style: italic;
-    padding-right: .5rem;
+    padding-right: var(--my_medium_size);
     text-align: right;
 }

@@ -5,14 +5,23 @@
   --my_light_black: #111111;
   --my_grey: #808080;
   --my_red: #FF0000;
+  --my_medium_size: .6rem;
+  --my_small_size: .25rem;
   --my_header_height: 2.75rem;
+  --my_header_font: 1.5rem;
+  --my_main_font: 1.25rem;
+  --my_footer_font: .75rem;
+  --my_background: url('src/assets/background.svg')
 }
+
+/*div { outline: .1rem solid red; }*/
+
+html {height: 100%;}
 
 body {
   background: linear-gradient(15deg, var(--my_grey), var(--my_light_black));
   color: var(--my_secondary_color);
   font-family: Open Sans, sans-serif;
-  font-size: 1.25rem;
-  min-height: 100vh;
-  margin: .5rem;
+  font-size: var(--my_main_font);
+  margin: var(--my_medium_size);
 }
