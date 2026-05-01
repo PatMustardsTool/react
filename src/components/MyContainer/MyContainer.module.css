@@ -1,8 +1,8 @@
 .container {
-    background: var(--my_background) no-repeat center;
-    background-size: cover;
+    background: var(--my_background) no-repeat center / cover;
     border-radius: 0 0 var(--my_medium_size) var(--my_medium_size);
     box-shadow: var(--my_very-small_size) var(--my_medium_size) var(--my_main_font) var(--my_black);
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
