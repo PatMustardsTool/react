@@ -26,6 +26,7 @@
 
 .reload_icon {
     box-sizing: border-box;
+    color: var(--my_secondary_color);
     cursor: pointer;
     grid-column: 3;
     max-height: 100%;
