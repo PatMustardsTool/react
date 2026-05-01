@@ -8,20 +8,21 @@ import {MyHeader} from './components/MyHeader/MyHeader.jsx';
 import {MyContainer} from './components/MyContainer/MyContainer.jsx';
 import {MyForm} from './components/MyForm/MyForm.jsx';
 import {MyFooter} from './components/MyFooter/MyFooter.jsx';
+import {MyInput} from './components/MyInput/MyInput.jsx';
 
 export const App = () => (
     <>
         <MyHeader {...{my_header_dict}} />
         <MyContainer>
             <MyForm>
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <div>5</div>
-                <div>6</div>
-                <div>7</div>
-                <div>8</div>
+                <MyInput/>
+                <MyInput/>
+                <MyInput/>
+                <MyInput/>
+                <MyInput/>
+                <MyInput/>
+                <MyInput/>
+                <MyInput/>
             </MyForm>
             <MyFooter {...{my_timestamp}}/>
         </MyContainer>
